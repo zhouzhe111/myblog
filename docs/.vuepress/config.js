@@ -21,7 +21,9 @@ module.exports = {
         //     href: '/办公.json'
         // }],
     ],
+    theme: "@vuepress/theme-default",
     themeConfig: {
+        repo: 'https://github.com/zhouzhe111/zhouzhe111.github.io',
         logo: '/植物.png',
         lastUpdated: false,
         navbar: [ // 导航栏配置
