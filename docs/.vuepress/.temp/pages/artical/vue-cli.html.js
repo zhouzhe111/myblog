@@ -38,7 +38,13 @@ export const data = {
     }
   ],
   "git": {
-    "contributors": []
+    "contributors": [
+      {
+        "name": "zhouzhe111",
+        "email": "2290280646@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "artical/vue-cli.md"
 }
