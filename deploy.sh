@@ -11,7 +11,7 @@ cd docs/.vuepress/dist
 
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
-
+git rm -r --cached .
 git init
 git add .
 git commit -m 'deploy'
@@ -28,6 +28,7 @@ git commit -m 'deploy'
 git push -f git@github.com:zhouzhe111/zhouzhe111.github.io.git master
 
 cd ../../../
+git rm -r --cached .
 git init
 git add .
 git commit -m 'deploy'
