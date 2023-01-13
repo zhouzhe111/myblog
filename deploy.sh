@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # 确保脚本抛出遇到的错误
-set -e
+# set -e
 
 # 生成静态文件
 npm run build
@@ -33,6 +33,7 @@ git init
 git add .
 git commit -m 'deploy'
 git push -f git@github.com:zhouzhe111/myblog master
+
 
 echo 按任意键继续
 read -n 1

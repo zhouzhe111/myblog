@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "deploy.sh",
+        "start": "deploy.sh > C:\\Users\\MSI\\Desktop\\out.txt",
         "dev": "vuepress dev docs --temp .temp",
         "build": "vuepress build docs"
     },
